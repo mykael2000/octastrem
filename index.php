@@ -141,12 +141,14 @@
                             href="dash/auth/register.php" class="btn btn-outline-white-reverse me-4">Register Now</a>
 
                     </div>
+                    <span style="font-size: 12px, color: black; font-weight: 600">*No credit card required</span>
                 </div>
                 <div id="bottom" class="col-lg-4 d-none d-lg-block" data-aos="fade-up" data-aos-delay="300">
                     <div class="img-wrap">
                         <img width="100%" height="100%" src="back.gif" alt="Image" class="img-fluid rounded">
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
