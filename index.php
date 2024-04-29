@@ -380,7 +380,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 order-lg-2 mb-4 mb-lg-0">
-                    <img height="500px" width="500px" src="images/section3-banner.2c166795.png" alt="Image"
+                    <img height="500px" width="500px" src="images/section3-banner.2c1667952.png" alt="Image"
                         class="img-fluid">
                 </div>
                 <div class="col-lg-5 pe-lg-5">
