@@ -156,9 +156,9 @@
         <h4 class="d-flex justify-content-center">Trusted by 500,000 traders from</h4>
         <div class="d-flex justify-content-center">
             <img src="images/Binance-Logo.png" height="50px" width="100px">
-            <img class="pl-2" src="images/okx.png" height="50px" width="50px">
-            <img class="pl-2" src="images/kucoin.jpg" height="50px" width="50px">
-            <img class="pl-2" src="images/bybit.png" height="50px" width="50px">
+            <img style="padding-left: 10px" src="images/okx.png" height="50px" width="50px">
+            <img style="padding-left: 10px" src="images/kucoin.jpg" height="50px" width="50px">
+            <img style="padding-left: 10px" src="images/bybit.png" height="50px" width="50px">
         </div>
     </div>
     <!-- TradingView Widget BEGIN -->
