@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Untree.co">
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="favicon.png">
     <meta content="Octastrem: Bitcoin and digital asset infrastructure" />
     <meta name="description"
         content="Octastrem is the global leader in Bitcoin and blockchain technologies, building the foundations for the financial infrastructure of the future." />
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/flatpickr.min.css">
 
 
-    <title>Octastrem - Home</title>
+    <title>Crypto Trading Bot Platform for Smart Investment</title>
     <style>
     @media only screen and (max-width: 600px) {
         #field {
@@ -78,7 +78,7 @@
                 <div class="site-navigation">
                     <div class="row g-0 align-items-center">
                         <div class="col-2">
-                            <a href="index.html" class="logo m-0 float-start"><img src="Octastremlogo.png"><span
+                            <a href="index.html" class="logo m-0 float-start"><img src="../octastremlogo.png"><span
                                     class="text-primary"></span></a>
                         </div>
                         <div class="col-6 text-center ">
