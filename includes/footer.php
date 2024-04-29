@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="widget">
-                    <img src="Octastremlogowhite.png">
+                    <img src="octastremlogowhite.png">
 
                 </div> <!-- /.widget -->
                 <div class="widget">
