@@ -155,10 +155,10 @@
     <div>
         <h4 class="d-flex justify-content-center">Trusted by 500,000 traders from</h4>
         <div class="d-flex justify-content-center">
-            <img src="images/Bitcoin-Logo.png">
-            <img src="images/okx.png">
-            <img src="images/kucoin.jpg">
-            <img src="images/bybit.png">
+            <img src="images/Bitcoin-Logo.png" height="50px" width="50px">
+            <img src="images/okx.png" height="50px" width="50px">
+            <img src="images/kucoin.jpg" height="50px" width="50px">
+            <img src="images/bybit.png" height="50px" width="50px">
         </div>
     </div>
     <!-- TradingView Widget BEGIN -->
