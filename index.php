@@ -442,7 +442,7 @@
                         </div>
                         <div>
                             <h3 style="color: #0f0b85">Your funds are secure</h3>
-                            <p>Bitsgap doesn’t have access to your exchange account and cannot withdraw your funds.</p>
+                            <p>Octastrem doesn’t have access to your exchange account and cannot withdraw your funds.</p>
                         </div>
                     </div>
 
@@ -463,21 +463,12 @@
                         <div>
                             <h3 style="color: #0f0b85">Fast trading servers</h3>
                             <p>Our servers are located close to popular exchanges to ensure stable and fast order
-                                execution.</p>
+                                execution. Our platform executes trades, while keeping all information entirely confidential.</p>
                         </div>
                     </div>
+                    
                 </div>
-                <div class="col-lg-5 pe-lg-5">
-                    <div class="mb-5">
-                        <h2 style="color: black; padding: 10px" class="h4">EASY.</h2>
-                        <h2 style="color: black; padding: 10px" class="h4">SECURE.</h2>
-                        <h2 style="color: black; padding: 10px" class="h4">FAST.</h2>
-                        <p>Octastrem has no access to your funds. And will never have.</p>
-                        <p>Our platform executes trades, while keeping all information entirely confidential.</p>
-                    </div>
-
-                </div>
-            </div>
+                            </div>
         </div>
     </div>
 
