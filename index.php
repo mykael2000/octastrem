@@ -105,7 +105,7 @@
                                         class="text-black btn btn-outline-white-reverse me-4"
                                         href="dash/auth/login.php">Sign
                                         in</a></li>
-                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1"
+                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1;"
                                         class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
                                         Started</a></li>
                             </ul>
@@ -137,11 +137,11 @@
 
                     </p>
                     <div class="align-items-center mb-5 mm" data-aos="fade-up" data-aos-delay="200">
-                        <a style="background-color: #1b21d1 border-radius: 25px; color: #fff"
+                        <a style="background-color: #1b21d1; border-radius: 25px; color: #fff"
                             href="dash/auth/register.php" class="btn btn-outline-white-reverse me-4">Register Now</a>
 
                     </div>
-                    <span style="font-size: 12px, color: black; font-weight: 600">*No credit card required</span>
+                    <span style="font-size: 12px; color: black; font-weight: 600">*No credit card required</span>
                 </div>
                 <div id="bottom" class="col-lg-4 d-none d-lg-block" data-aos="fade-up" data-aos-delay="300">
                     <div class="img-wrap">
@@ -654,7 +654,7 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <a style="background-color: #1b21d1 color:#fff; border-radius: 25px;" href="dash/auth/register.php"
+                    <a style="background-color: #1b21d1; color:#fff; border-radius: 25px;" href="dash/auth/register.php"
                         class="btn btn-outline-white-reverse me-4">Get Started</a>
                 </div>
             </div>
