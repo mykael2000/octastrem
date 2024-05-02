@@ -62,6 +62,7 @@
     #nav-area {
             display: none;
         }
+
     </style>
 </head>
 
