@@ -72,11 +72,11 @@
             <div class="site-mobile-menu-close">
                 <span class="icofont-close js-menu-toggle"></span>
                 <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1"
+                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
                                         class="text-black btn btn-outline-white-reverse me-4"
                                         href="dash/auth/login.php">Sign
                                         in</a></li>
-                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1;"
+                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px"
                                         class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
                                         Started</a></li>
                             </ul>
@@ -102,6 +102,7 @@
                                 <li><a class="text-black" href="faq.php">FAQ</a></li>
                                 <li><a class="text-black" href="index.php#plans">Investment Plans</a></li>
                                 <li><a class="text-black" href="contact.php">Contact Us</a></li>
+                                <li><a class="text-black" href="">Buy Crypto</a></li>
                                 <li>
                                     <div id="google_translate_element"></div>
                                 </li>
@@ -114,11 +115,11 @@
                             </a>
 
                             <ul id="nav-area" class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1"
+                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
                                         class="text-black btn btn-outline-white-reverse me-4"
                                         href="dash/auth/login.php">Sign
                                         in</a></li>
-                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1;"
+                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px"
                                         class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
                                         Started</a></li>
                             </ul>
@@ -172,6 +173,7 @@
             <img style="padding-left: 10px" src="images/okx.png" height="50px" width="50px">
             <img style="padding-left: 10px" src="images/kucoin.jpg" height="50px" width="50px">
             <img style="padding-left: 10px" src="images/bybit.png" height="50px" width="50px">
+            <h6 style="padding-left: 10px">15+ <br>More</h6>
         </div>
     </div>
     <!-- TradingView Widget BEGIN -->
