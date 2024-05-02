@@ -57,7 +57,11 @@
 
             /* Adjust background size for desktop screens */
         }
+        
     }
+    #nav-area {
+            display: none;
+        }
     </style>
 </head>
 
@@ -67,6 +71,15 @@
         <div style="background-color:#fff;" class="site-mobile-menu-header">
             <div class="site-mobile-menu-close">
                 <span class="icofont-close js-menu-toggle"></span>
+                <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1"
+                                        class="text-black btn btn-outline-white-reverse me-4"
+                                        href="dash/auth/login.php">Sign
+                                        in</a></li>
+                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1;"
+                                        class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
+                                        Started</a></li>
+                            </ul>
             </div>
         </div>
         <div style="background-color:#fff;" class="site-mobile-menu-body"></div>
@@ -82,7 +95,7 @@
                                     class="text-primary"></span></a>
                         </div>
                         <div class="col-6 text-center ">
-                            <ul class="text-black js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                            <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
                                 <li><a class="text-black" href="index.php">Home</a></li>
                                 <li><a class="text-black" href="about.php">About Us</a></li>
 
@@ -100,7 +113,7 @@
                                 <span></span>
                             </a>
 
-                            <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                            <ul id="nav-area" class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
                                 <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1"
                                         class="text-black btn btn-outline-white-reverse me-4"
                                         href="dash/auth/login.php">Sign
@@ -141,7 +154,7 @@
                             href="dash/auth/register.php" class="btn btn-outline-white-reverse me-4">Register Now</a>
 
                     </div>
-                    <span style="font-size: 12px; color: black; font-weight: 600">*No credit card required</span>
+                    
                 </div>
                 <div id="bottom" class="col-lg-4 d-none d-lg-block" data-aos="fade-up" data-aos-delay="300">
                     <div class="img-wrap">
@@ -152,7 +165,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div style="position: relative; top: -70px">
         <h4 class="d-flex justify-content-center">Trusted by 500,000 traders from</h4>
         <div class="d-flex justify-content-center">
             <img src="images/Binance-Logo.png" height="50px" width="100px">
