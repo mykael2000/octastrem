@@ -45,10 +45,10 @@ include "includes/header.php";
                                     <td>BASIC Plan</td>
 
 
-                                    <td>$699 - $5,000</td>
+                                    <td>$699 - $9,999</td>
 
-                                    <td>24%</td>
-                                    <td>10-11days</td>
+                                    <td>19%</td>
+                                    <td>Instant Withdrawal</td>
 
 
 
@@ -58,9 +58,9 @@ include "includes/header.php";
 
                                     <td>STANDARD Plan</td>
 
-                                    <td>$5,000 - $50,000</td>
-                                    <td>30%</td>
-                                    <td>10-11days</td>
+                                    <td>$10,000 - $79,999</td>
+                                    <td>23%</td>
+                                    <td>Instant Withdrawal</td>
 
 
                                 </tr>
@@ -69,9 +69,9 @@ include "includes/header.php";
 
                                     <td>ADVANCED Plan</td>
 
-                                    <td>$50,000 - $100,000</td>
-                                    <td>35%</td>
-                                    <td>10-11days</td>
+                                    <td>$80,000 - $299,999</td>
+                                    <td>32%</td>
+                                    <td>Instant Withdrawal</td>
 
 
                                 </tr>
@@ -80,9 +80,9 @@ include "includes/header.php";
 
                                     <td>ELITE Plan</td>
 
-                                    <td>$100,000 - $1,000,000</td>
-                                    <td>40%</td>
-                                    <td>10-11days</td>
+                                    <td>$300,000 - $6,000,000</td>
+                                    <td>42%</td>
+                                    <td>Instant Withdrawal</td>
 
 
                                 </tr>
