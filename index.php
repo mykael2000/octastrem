@@ -108,13 +108,19 @@
                         </div>
                         <div class="col-6 text-center ">
                             <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li><a class="text-black" href="index.php">Home</a></li>
-                                <li><a class="text-black" href="about.php">About Us</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
+                                        href="index.php">Home</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
+                                        href="index.php#plans">Trading Plans</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
+                                        href="faq.php">FAQ</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black" href="">Buy
+                                        Crypto</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
+                                        href="about.php">About Us</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
+                                        href="contact.php">Contact Us</a></li>
 
-                                <li><a class="text-black" href="faq.php">FAQ</a></li>
-                                <li><a class="text-black" href="index.php#plans">Investment Plans</a></li>
-                                <li><a class="text-black" href="contact.php">Contact Us</a></li>
-                                <li><a class="text-black" href="">Buy Crypto</a></li>
                                 <li>
                                     <div id="google_translate_element"></div>
                                 </li>
