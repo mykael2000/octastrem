@@ -57,12 +57,23 @@
 
             /* Adjust background size for desktop screens */
         }
-        
-    }
-    #nav-area {
-            display: none;
-        }
 
+    }
+
+    #nav-area {
+        display: none;
+    }
+
+    @media only screen and (max-width: 767px) {
+        #mobile-nav-container {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #fff;
+            /* Add any other styles you need */
+        }
+    }
     </style>
 </head>
 
@@ -73,20 +84,20 @@
             <div class="site-mobile-menu-close">
                 <span class="icofont-close js-menu-toggle"></span>
                 <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
-                                        class="text-black btn btn-outline-white-reverse me-4"
-                                        href="dash/auth/login.php">Sign
-                                        in</a></li>
-                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px"
-                                        class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
-                                        Started</a></li>
-                            </ul>
+                    <li style="padding: 5px;"><a
+                            style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
+                            class="text-black btn btn-outline-white-reverse me-4" href="dash/auth/login.php">Sign
+                            in</a></li>
+                    <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px"
+                            class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
+                            Started</a></li>
+                </ul>
             </div>
         </div>
         <div style="background-color:#fff;" class="site-mobile-menu-body"></div>
     </div>
 
-    <nav style="background-color:#fff; padding-top: 10px;" class="site-nav">
+    <nav style="background-color:#fff; padding-top: 10px;" id="mobile-nav-container" class="site-nav">
         <div class="container">
             <div class="menu-bg-wrap">
                 <div class="site-navigation">
@@ -115,12 +126,15 @@
                                 <span></span>
                             </a>
 
-                            <ul id="nav-area" class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
+                            <ul id="nav-area"
+                                class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                                <li style="padding: 5px;"><a
+                                        style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
                                         class="text-black btn btn-outline-white-reverse me-4"
                                         href="dash/auth/login.php">Sign
                                         in</a></li>
-                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px"
+                                <li style="padding: 5px;"><a
+                                        style="color: #fff; background-color: #1b21d1; border-radius: 25px"
                                         class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
                                         Started</a></li>
                             </ul>
@@ -156,7 +170,7 @@
                             href="dash/auth/register.php" class="btn btn-outline-white-reverse me-4">Register Now</a>
 
                     </div>
-                    
+
                 </div>
                 <div id="bottom" class="col-lg-4 d-none d-lg-block" data-aos="fade-up" data-aos-delay="300">
                     <div class="img-wrap">
@@ -458,7 +472,8 @@
                         </div>
                         <div>
                             <h3 style="color: #0f0b85">Your funds are secure</h3>
-                            <p>Octastrem doesn’t have access to your exchange account and cannot withdraw your funds.</p>
+                            <p>Octastrem doesn’t have access to your exchange account and cannot withdraw your funds.
+                            </p>
                         </div>
                     </div>
 
@@ -479,12 +494,13 @@
                         <div>
                             <h3 style="color: #0f0b85">Fast trading servers</h3>
                             <p>Our servers are located close to popular exchanges to ensure stable and fast order
-                                execution. Our platform executes trades, while keeping all information entirely confidential.</p>
+                                execution. Our platform executes trades, while keeping all information entirely
+                                confidential.</p>
                         </div>
                     </div>
-                    
+
                 </div>
-                            </div>
+            </div>
         </div>
     </div>
 
