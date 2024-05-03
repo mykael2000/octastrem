@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("s2950.fra1.stableserver.net", "Octastrem_octa", "oc234TaM12!", "Octastrem_octa");
+$con = mysqli_connect("s2950.fra1.stableserver.net", "octamask_octastrem", "oc234TaM12!", "octamask_octastrem");
 //$con = mysqli_connect("localhost", "root", "", "Octastrem");
 
 // if($con){

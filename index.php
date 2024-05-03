@@ -57,7 +57,12 @@
 
             /* Adjust background size for desktop screens */
         }
+        
     }
+    #nav-area {
+            display: none;
+        }
+
     </style>
 </head>
 
@@ -67,6 +72,15 @@
         <div style="background-color:#fff;" class="site-mobile-menu-header">
             <div class="site-mobile-menu-close">
                 <span class="icofont-close js-menu-toggle"></span>
+                <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
+                                        class="text-black btn btn-outline-white-reverse me-4"
+                                        href="dash/auth/login.php">Sign
+                                        in</a></li>
+                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px"
+                                        class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
+                                        Started</a></li>
+                            </ul>
             </div>
         </div>
         <div style="background-color:#fff;" class="site-mobile-menu-body"></div>
@@ -82,13 +96,14 @@
                                     class="text-primary"></span></a>
                         </div>
                         <div class="col-6 text-center ">
-                            <ul class="text-black js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                            <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
                                 <li><a class="text-black" href="index.php">Home</a></li>
                                 <li><a class="text-black" href="about.php">About Us</a></li>
 
                                 <li><a class="text-black" href="faq.php">FAQ</a></li>
                                 <li><a class="text-black" href="index.php#plans">Investment Plans</a></li>
                                 <li><a class="text-black" href="contact.php">Contact Us</a></li>
+                                <li><a class="text-black" href="">Buy Crypto</a></li>
                                 <li>
                                     <div id="google_translate_element"></div>
                                 </li>
@@ -100,12 +115,12 @@
                                 <span></span>
                             </a>
 
-                            <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #030769;"
+                            <ul id="nav-area" class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
                                         class="text-black btn btn-outline-white-reverse me-4"
                                         href="dash/auth/login.php">Sign
                                         in</a></li>
-                                <li style="padding: 5px;"><a style="color: #fff; background-color: #030769;"
+                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px"
                                         class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
                                         Started</a></li>
                             </ul>
@@ -137,11 +152,11 @@
 
                     </p>
                     <div class="align-items-center mb-5 mm" data-aos="fade-up" data-aos-delay="200">
-                        <a style="background-color: #030769; border-radius: 25px; color: #fff"
+                        <a style="background-color: #1b21d1; border-radius: 25px; color: #fff"
                             href="dash/auth/register.php" class="btn btn-outline-white-reverse me-4">Register Now</a>
 
                     </div>
-                    <span style="font-size: 12px, color: black; font-weight: 600">*No credit card required</span>
+                    
                 </div>
                 <div id="bottom" class="col-lg-4 d-none d-lg-block" data-aos="fade-up" data-aos-delay="300">
                     <div class="img-wrap">
@@ -152,13 +167,14 @@
             </div>
         </div>
     </div>
-    <div>
+    <div style="position: relative; top: -70px">
         <h4 class="d-flex justify-content-center">Trusted by 500,000 traders from</h4>
         <div class="d-flex justify-content-center">
             <img src="images/Binance-Logo.png" height="50px" width="100px">
             <img style="padding-left: 10px" src="images/okx.png" height="50px" width="50px">
             <img style="padding-left: 10px" src="images/kucoin.jpg" height="50px" width="50px">
             <img style="padding-left: 10px" src="images/bybit.png" height="50px" width="50px">
+            <h6 style="padding-left: 10px">15+ <br>More</h6>
         </div>
     </div>
     <!-- TradingView Widget BEGIN -->
@@ -442,7 +458,7 @@
                         </div>
                         <div>
                             <h3 style="color: #0f0b85">Your funds are secure</h3>
-                            <p>Bitsgap doesn’t have access to your exchange account and cannot withdraw your funds.</p>
+                            <p>Octastrem doesn’t have access to your exchange account and cannot withdraw your funds.</p>
                         </div>
                     </div>
 
@@ -463,21 +479,12 @@
                         <div>
                             <h3 style="color: #0f0b85">Fast trading servers</h3>
                             <p>Our servers are located close to popular exchanges to ensure stable and fast order
-                                execution.</p>
+                                execution. Our platform executes trades, while keeping all information entirely confidential.</p>
                         </div>
                     </div>
+                    
                 </div>
-                <div class="col-lg-5 pe-lg-5">
-                    <div class="mb-5">
-                        <h2 style="color: black; padding: 10px" class="h4">EASY.</h2>
-                        <h2 style="color: black; padding: 10px" class="h4">SECURE.</h2>
-                        <h2 style="color: black; padding: 10px" class="h4">FAST.</h2>
-                        <p>Octastrem has no access to your funds. And will never have.</p>
-                        <p>Our platform executes trades, while keeping all information entirely confidential.</p>
-                    </div>
-
-                </div>
-            </div>
+                            </div>
         </div>
     </div>
 
@@ -654,7 +661,7 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <a style="background-color: #030769; color:#fff; border-radius: 25px;" href="dash/auth/register.php"
+                    <a style="background-color: #1b21d1; color:#fff; border-radius: 25px;" href="dash/auth/register.php"
                         class="btn btn-outline-white-reverse me-4">Get Started</a>
                 </div>
             </div>
