@@ -14,9 +14,10 @@ jobs:
       - name: 📂 Sync files
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          token: ${{ secrets.YOUR_PERSONAL_ACCESS_TOKEN }}
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /
+          remote_path: /octastrem.com/
+          local_path: /
+          sftp_only: true
           port: 22
