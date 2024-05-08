@@ -17,6 +17,6 @@ jobs:
           host: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
           pass: ${{ secrets.FTP_PASSWORD }}
-          remoteDir: /octastrem.com/
+          remoteDir: /
           localDir: /
           port: 22
