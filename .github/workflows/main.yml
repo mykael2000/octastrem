@@ -12,11 +12,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: 📂 Sync files
-        uses: pressidium/lftp-mirror-action@v1
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          host: ${{ secrets.FTP_SERVER }}
-          user: ${{ secrets.FTP_USERNAME }}
-          pass: ${{ secrets.FTP_PASSWORD }}
-          remoteDir: /
-          localDir: /
-          port: 22
+          token: ${{ secrets.YOUR_PERSONAL_ACCESS_TOKEN }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /octastrem.com/
