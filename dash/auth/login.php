@@ -42,12 +42,12 @@ if (isset($_POST['submit'])) {
 
 </head>
 
-<body class="bg-gradient-login" style="background-color:black;">
+<body class="bg-gradient-login" style="background-color:#fff;">
     <!-- Login Content -->
     <div class="container-login" id="home">
         <div class="row justify-content-center">
             <div class="col-xl-4 col-lg-8 col-md-9 pt-5">
-                <div style="background-color:#222;" class="card shadow-sm my-5">
+                <div style="background-color:#fff;" class="card shadow-sm my-5">
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-lg-12">
