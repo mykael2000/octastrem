@@ -41,7 +41,7 @@ include "includes/header.php";
         </div>
 
         <div class="row">
-            <div class="col-md-12 col-xl-6">
+            <div style="background-color: #1b21d1;" class="col-md-12 col-xl-6">
                 <div class="card-box tilebox-one">
                     <i class="icon-user float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Your Full Name</h6>
