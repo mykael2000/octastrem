@@ -20,7 +20,7 @@ include "includes/header.php";
                             <li class="breadcrumb-item active">Account Overview</li>
                         </ol>
                     </div>
-                    <h4 class="page-title">Account Overview</h4>
+                    <h4 style="color: black;" class="page-title">Account Overview</h4>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@ include "includes/header.php";
                         value="https://octastrem.com/dash/auth/register.php?ref=<?php echo $getdetails['username']; ?>"
                         id="myInput">
                     <div class="input-group-prepend">
-                        <button class="btn btn-warning" onclick="myFunction()">COPY</button>
+                        <button class="btn btn-primary" onclick="myFunction()">COPY</button>
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@ include "includes/header.php";
                     <h6 class="text-muted text-uppercase mt-0">Total Earnings</h6>
                     <h3 class="my-3">$<span><?php echo number_format($getdetails['total_earnings']); ?></span>
                     </h3>
-                    <a class="font-weight-bold text-white btn btn-sm btn-warning" href="#">My Deposits</a>
+                    <a class="font-weight-bold text-white btn btn-sm btn-primary" href="#">My Deposits</a>
                 </div>
             </div>
 
@@ -106,7 +106,7 @@ include "includes/header.php";
                     <h6 class="text-muted text-uppercase mt-0">Total Bonus</h6>
                     <h3 class="my-3">$<span><?php echo number_format($getdetails['total_bonus']); ?></span>
                     </h3>
-                    <!-- <a class="font-weight-bold text-white btn btn-sm btn-warning" href="createWithdraw.php">Withdraw
+                    <!-- <a class="font-weight-bold text-white btn btn-sm btn-primary" href="createWithdraw.php">Withdraw
                         Funds</a> -->
                 </div>
             </div>
@@ -117,7 +117,7 @@ include "includes/header.php";
                     <h3 class="my-3">$<span
                             ><?php //echo number_format($getdetails['total_deposits']); ?></span>
                     </h3>
-                    <a class="font-weight-bold text-white btn btn-sm btn-warning" href="createWithdraw.php">Withdraw
+                    <a class="font-weight-bold text-white btn btn-sm btn-primary" href="createWithdraw.php">Withdraw
                         Funds</a>
                 </div>
             </div> -->
@@ -130,7 +130,7 @@ include "includes/header.php";
                     <h6 class="text-muted text-uppercase mt-0">Total Withdrawal</h6>
                     <h3 class="my-3">$<span><?php echo number_format($getdetails['total_withdrawals']); ?></span>
                     </h3>
-                    <a class="font-weight-bold text-white btn btn-sm btn-warning" href="withdrawal.php">My
+                    <a class="font-weight-bold text-white btn btn-sm btn-primary" href="withdrawal.php">My
                         Withdrawal</a>
                 </div>
             </div>
@@ -140,7 +140,7 @@ include "includes/header.php";
                     <h6 class="text-muted text-uppercase mt-0">Pending Withdrawal</h6>
                     <h3 class="my-3">$<span><?php echo number_format($getdetails['pending_withdrawal']); ?></span>
                     </h3>
-                    <a class="font-weight-bold text-white btn btn-sm btn-warning" href="withdrawal.php">My
+                    <a class="font-weight-bold text-white btn btn-sm btn-primary" href="withdrawal.php">My
                         Withdrawal</a>
                 </div>
             </div>
