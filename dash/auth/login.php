@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
                             <div class="col-lg-12">
                                 <div class="login-form">
                                     <div class="d-flex justify-content-center p-3 pb-5">
-                                        <img src="../../Octastremlogowhite.png" alt="logo">
+                                        <img src="../../octastremlogowhite.png" alt="logo">
                                     </div>
                                     <div class="text-center">
                                         <h1 class="h4 text-white mb-4 font-weight-bold">Welcome to Octastrem</h1>
