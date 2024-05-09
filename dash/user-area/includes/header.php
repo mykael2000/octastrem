@@ -121,8 +121,7 @@ $email = $getdetails['email'];
 
 </head>
 
-<body style="background-color: #191a19
-;">
+<body style="background-color: #fff;">
 
     <!-- Navigation Bar-->
     <header id="topnav">
