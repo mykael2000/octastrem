@@ -254,6 +254,7 @@ if (isset($_POST["submit"])) {
                                     </div>
                                     <div class="text-center">
                                         <h1 class="h4 text-black mb-4">Register</h1>
+                                        <p>A better way to trade and manage cryptocurrency</p>
                                     </div>
                                     <!-- Session Status -->
                                     <x-auth-session-status class="mb-4" :status="session('status')" />
