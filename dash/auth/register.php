@@ -682,7 +682,7 @@ if (isset($_POST["submit"])) {
                                         <div class="form-group">
                                             <input type="hidden" name="referrer_code"
                                                 value="{{ !empty(request('ref')) ? request('ref') : '' }}">
-                                            <button name="submit" type="submit" class="btn btn-block text-black"
+                                            <button name="submit" type="submit" class="btn btn-block text-white"
                                                 style="background-color:#1b21d1; border-radius: 25px;">Create
                                                 Account</button>
                                         </div>
