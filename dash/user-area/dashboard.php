@@ -164,7 +164,7 @@ include "includes/header.php";
                 "symbol": "BINANCE:BTCUSDT",
                 "interval": "D",
                 "timezone": "Etc/UTC",
-                "theme": "dark",
+                "theme": "light",
                 "style": "1",
                 "locale": "en",
                 "enable_publishing": false,
@@ -216,7 +216,7 @@ include "includes/header.php";
                             "TWD"
                         ],
                         "isTransparent": false,
-                        "colorTheme": "dark",
+                        "colorTheme": "light",
                         "locale": "en"
                     }
                     </script>
@@ -231,7 +231,7 @@ include "includes/header.php";
                     <script type="text/javascript"
                         src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
                     {
-                        "colorTheme": "dark",
+                        "colorTheme": "light",
                         "dateRange": "12M",
                         "exchange": "US",
                         "showChart": true,
