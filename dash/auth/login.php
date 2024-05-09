@@ -53,10 +53,11 @@ if (isset($_POST['submit'])) {
                             <div class="col-lg-12">
                                 <div class="login-form">
                                     <div class="d-flex justify-content-center p-3 pb-5">
-                                        <img src="../../octastremlogowhite.png" alt="logo">
+                                        <img src="../../octastremlogo.png" alt="logo">
                                     </div>
                                     <div class="text-center">
-                                        <h1 class="h4 text-white mb-4 font-weight-bold">Welcome to Octastrem</h1>
+                                        <h1 class="h4 text-white mb-4 font-weight-bold">Login</h1>
+                                        <p>A better way to trade and manage cryptocurrency</p>
                                     </div>
 
 
@@ -85,7 +86,7 @@ if (isset($_POST['submit'])) {
                                         <div class="form-group">
                                             <div class="d-flex content-justify">
                                                 <div class="text-right w-50">
-                                                    <a style="position:relative; left: 85%; color: #ffc107"
+                                                    <a style="position:relative; left: 85%; color: #1b21d1"
                                                         class="font-weight-bold large" href="forgot.php">Forgot
                                                         password?</a>
                                                 </div>
@@ -93,21 +94,21 @@ if (isset($_POST['submit'])) {
                                         </div>
                                         <div class="form-group">
                                             <button name="submit" type="submit" class="btn text-white btn-block"
-                                                style="background-color:#ffc107; border-radius: 25px;">Login</button>
+                                                style="background-color:#1b21d1; border-radius: 25px;">Login</button>
                                         </div>
 
                                     </form>
                                     <hr>
                                     <div class="d-flex content-justify">
-                                        <div class="text-left w-75 text-white">
+                                        <div class="text-left w-75 text-black">
                                             No account? <a class="font-weight-bold small" href="register.php"
-                                                style="color:#ffc107;">Sign up</a>
+                                                style="color:#1b21d1;">Sign up</a>
                                         </div>
                                     </div>
                                     <hr>
-                                    <div class="text-center text-white">
+                                    <div class="text-center text-black">
                                         Return to <a class="font-weight-bold small" href="../../index.php"
-                                            style="color:#ffc107;">Home</a>
+                                            style="color:#1b21d1;">Home</a>
                                     </div>
 
                                 </div>
