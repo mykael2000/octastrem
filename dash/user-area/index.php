@@ -20,7 +20,7 @@ header("location:dashboard.php");
                             <li class="breadcrumb-item active">Account Overview</li>
                         </ol>
                     </div>
-                    <h4 class="page-title">Account Overview</h4>
+                    <h4 class="page-title text-black">Account Overview</h4>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@ header("location:dashboard.php");
                         value="https://octastrem.com/auth/register.php?ref=<?php echo $getdetails['username']; ?>"
                         id="myInput">
                     <div class="input-group-prepend">
-                        <button class="btn btn-primary" onclick="myFunction()">COPY</button>
+                        <button style="background-color: #1b21d1;" class="btn" onclick="myFunction()">COPY</button>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ header("location:dashboard.php");
                     <h6 class="text-muted text-uppercase mt-0">Your Balance</h6>
                     <h3 class="my-3">$<span data-plugin="counterup">@if(empty($wallet->balance))0.00 @else
                             {{ number_format($wallet->balance, 1) }} @endif</span></h3>
-                    <a class="text-white btn btn-sm btn-info" href="{{ route('client.withdrawals.create') }}">Withdraw
+                    <a style="background-color: #1b21d1;" class="text-white btn btn-sm" href="{{ route('client.withdrawals.create') }}">Withdraw
                         Funds</a>
                 </div>
             </div>
@@ -83,7 +83,7 @@ header("location:dashboard.php");
                     <i class="icon-chart float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Total Earnings</h6>
                     <h3 class="my-3">$<span data-plugin="counterup">{{ $earnings }}</span></h3>
-                    <a class="text-white btn btn-sm btn-primary" href="#">My Deposits</a>
+                    <a style="background-color: #1b21d1;" class="text-white btn btn-sm" href="#">My Deposits</a>
                 </div>
             </div>
 
@@ -92,7 +92,7 @@ header("location:dashboard.php");
                     <i class="icon-docs float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Total Referrals</h6>
                     <h3 class="my-3"><span data-plugin="counterup">{{ $referrals }}</span></h3>
-                    <a class="text-white btn btn-sm btn-primary" href="#">Make Deposits</a>
+                    <a style="background-color: #1b21d1;" class="text-white btn btn-sm" href="#">Make Deposits</a>
                 </div>
             </div>
 
@@ -101,7 +101,7 @@ header("location:dashboard.php");
                     <i class="icon-social-dropbox float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Total Deposits</h6>
                     <h3 class="my-3">$<span data-plugin="counterup">{{ number_format($total_deposits, 2) }}</span></h3>
-                    <a class="text-white btn btn-sm btn-primary" href="#">Withdraw Funds</a>
+                    <a style="background-color: #1b21d1;" class="text-white btn btn-sm" href="#">Withdraw Funds</a>
                 </div>
             </div>
 
@@ -112,7 +112,7 @@ header("location:dashboard.php");
                     <i class="icon-rocket float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Total Withdrawal</h6>
                     <h3 class="my-3">$<span data-plugin="counterup">{{ $withdrawals }}</span></h3>
-                    <a class="text-white btn btn-sm btn-primary" href="#">My Withdrawal</a>
+                    <a style="background-color: #1b21d1;" class="text-white btn btn-sm" href="#">My Withdrawal</a>
                 </div>
             </div>
         </div>
