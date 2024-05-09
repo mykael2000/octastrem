@@ -239,21 +239,21 @@ if (isset($_POST["submit"])) {
 
 </head>
 
-<body class="bg-gradient-login" style="background:black;">
+<body class="bg-gradient-login" style="background:#fff;">
     <!-- Login Content -->
     <div class="container-login">
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-12 col-md-10 pt-5">
-                <div style="background-color:#222;" class="card shadow-sm my-5">
+                <div style="background-color:#fff;" class="card shadow-sm my-5">
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="login-form">
                                     <div class="d-flex justify-content-center p-3 pb-5">
-                                        <img src="../../octastremlogowhite.png" alt="logo">
+                                        <img src="../../octastremlogo.png" alt="logo">
                                     </div>
                                     <div class="text-center">
-                                        <h1 class="h4 text-white mb-4">Register</h1>
+                                        <h1 class="h4 text-black mb-4">Register</h1>
                                     </div>
                                     <!-- Session Status -->
                                     <x-auth-session-status class="mb-4" :status="session('status')" />
@@ -263,7 +263,7 @@ if (isset($_POST["submit"])) {
                                     <x-auth-validation-errors class="mb-4" :errors="$errors" />
                                     <form class="user" method="POST" action="" enctype="multipart/form-data">
                                         <div class="form-group">
-                                            <label class="text-white">First Name</label>
+                                            <label class="text-black">First Name</label>
                                             <input type="text" class="form-control" id="exampleInputFirstName"
                                                 placeholder="Enter First Name"
                                                 value="<?php if (!empty($first_name)) {echo $_POST['first_name'];}?>"
@@ -273,7 +273,7 @@ if (isset($_POST["submit"])) {
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="text-white">Last Name</label>
+                                            <label class="text-black">Last Name</label>
                                             <input type="text" class="form-control" id="exampleInputLastName"
                                                 placeholder="Enter Last Name"
                                                 value="<?php if (!empty($last_name)) {echo $_POST['last_name'];}?>"
@@ -284,7 +284,7 @@ if (isset($_POST["submit"])) {
 
 
                                         <div class="form-group">
-                                            <label class="text-white">Email</label>
+                                            <label class="text-black">Email</label>
                                             <input type="email" class="form-control" id="exampleInputEmail"
                                                 aria-describedby="emailHelp" placeholder="Enter Email Address"
                                                 value="<?php if (!empty($email)) {echo $_POST['email'];}?>"
@@ -297,7 +297,7 @@ if (isset($_POST["submit"])) {
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="text-white">Country</label><br>
+                                                    <label class="text-black">Country</label><br>
                                                     <select id="country" name="country" class="form-control">
                                                         <option
                                                             value="<?php if (!empty($country)) {echo $_POST['country'];}?>">
@@ -566,7 +566,7 @@ if (isset($_POST["submit"])) {
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="text-white">Phone</label>
+                                                    <label class="text-black">Phone</label>
                                                     <input type="text" class="form-control" id="exampleInputEmail"
                                                         aria-describedby="emailHelp" placeholder="Enter phone"
                                                         value="<?php if (!empty($phone)) {echo $_POST['phone'];}?>"
@@ -578,7 +578,7 @@ if (isset($_POST["submit"])) {
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="text-white">Bitcoin Wallet Address(optional)</label>
+                                            <label class="text-black">Bitcoin Wallet Address(optional)</label>
                                             <input type="text" class="form-control" id="examplebitcoin"
                                                 placeholder="Enter Your Bitcoin Wallet Address(optional)"
                                                 value="<?php if (!empty($btcWallet)) {echo $_POST['btcWallet'];}?>"
@@ -588,7 +588,7 @@ if (isset($_POST["submit"])) {
 
 
                                         <div class="form-group">
-                                            <label class="text-white">Ethereum Wallet Address(optional)</label>
+                                            <label class="text-black">Ethereum Wallet Address(optional)</label>
                                             <input type="text" class="form-control" id="exampleeth"
                                                 placeholder="Enter Your Ethereum Wallet Address(optional)"
                                                 value="<?php if (!empty($ethWallet)) {echo $_POST['ethWallet'];}?>"
@@ -598,7 +598,7 @@ if (isset($_POST["submit"])) {
                                         <div class="row">
                                             <div class="@if(!empty($referral)) col-md-6 @else col-md-12 @endif">
                                                 <div class="form-group">
-                                                    <label class="text-white">Username</label>
+                                                    <label class="text-black">Username</label>
                                                     <input type="text" class="form-control" id="exampleInputusername"
                                                         placeholder="Enter Username"
                                                         value="<?php if (!empty($first_name)) {echo $_POST['username'];}?>"
@@ -611,7 +611,7 @@ if (isset($_POST["submit"])) {
 
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="text-white">Referral Name</label>
+                                                    <label class="text-black">Referral Name</label>
                                                     <input type="text" class="form-control" id="exampleInputusername"
                                                         placeholder="Enter referral"
                                                         value="<?php if (!empty($ref)) {echo $ref;}?>" name="referral">
@@ -628,7 +628,7 @@ if (isset($_POST["submit"])) {
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="text-white">Security Question</label><br>
+                                                    <label class="text-black">Security Question</label><br>
                                                     <select id="securityQuestion" name="sQuestion" class="form-control">
                                                         <option value="">Select a question</option>
                                                         <option value="What is your Pet name?">What is your Pet name?
@@ -644,7 +644,7 @@ if (isset($_POST["submit"])) {
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="text-white">Security Answer</label>
+                                                    <label class="text-black">Security Answer</label>
                                                     <input type="text" name="sAnswer"
                                                         placeholder="Enter Security Answer" class="form-control">
                                                     <span style="font-size:12px; color:red;" class="error">
@@ -660,7 +660,7 @@ if (isset($_POST["submit"])) {
 
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="text-white">Password</label>
+                                                    <label class="text-black">Password</label>
                                                     <input type="password" name="password" class="form-control"
                                                         id="exampleInputPassword" placeholder="Enter password">
                                                     <span style="font-size:12px; color:red;" class="error">
@@ -670,7 +670,7 @@ if (isset($_POST["submit"])) {
 
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="text-white">Confirm Password</label>
+                                                    <label class="text-black">Confirm Password</label>
                                                     <input type="password" name="c_password" class="form-control"
                                                         id="exampleInputPassword" placeholder="Confirm password">
                                                 </div>
@@ -682,16 +682,16 @@ if (isset($_POST["submit"])) {
                                         <div class="form-group">
                                             <input type="hidden" name="referrer_code"
                                                 value="{{ !empty(request('ref')) ? request('ref') : '' }}">
-                                            <button name="submit" type="submit" class="btn btn-block text-white"
-                                                style="background-color:#ffc107; border-radius: 25px;">Create
+                                            <button name="submit" type="submit" class="btn btn-block text-black"
+                                                style="background-color:#1b21d1; border-radius: 25px;">Create
                                                 Account</button>
                                         </div>
 
                                     </form>
                                     <hr>
-                                    <div class="text-center text-white">
+                                    <div class="text-center text-black">
                                         Already have an account? <a class="font-weight-bold small" href="login.php"
-                                            style="color:#ffc107;">Login!</a>
+                                            style="color:#1b21d1;">Login!</a>
                                     </div>
 
                                 </div>

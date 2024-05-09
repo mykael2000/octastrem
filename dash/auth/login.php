@@ -56,7 +56,7 @@ if (isset($_POST['submit'])) {
                                         <img src="../../octastremlogo.png" alt="logo">
                                     </div>
                                     <div class="text-center">
-                                        <h1 class="h4 text-white mb-4 font-weight-bold">Login</h1>
+                                        <h1 class="h4 text-black mb-4 font-weight-bold">Login</h1>
                                         <p>A better way to trade and manage cryptocurrency</p>
                                     </div>
 
