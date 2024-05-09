@@ -42,7 +42,7 @@ include "includes/header.php";
 
         <div class="row">
             <div class="col-md-12 col-xl-6">
-                <div style="background-color: #1b21d1;" class="card-box tilebox-one">
+                <div class="card-box tilebox-one">
                     <i class="icon-user float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Your Full Name</h6>
                     <h3 class="my-3"><?php echo $getdetails['first_name'] . ' ' . $getdetails['last_name']; ?></h3>
