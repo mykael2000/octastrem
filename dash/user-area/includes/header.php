@@ -274,7 +274,7 @@ $email = $getdetails['email'];
                 </ul>
 
                 <!-- LOGO -->
-                <div class="logo-box">
+                <div style="background-color: #080424;" class="logo-box">
                     <a href="dashboard.php" class="logo text-center logo-light">
                         <span class="logo-lg">
                             <img src="../../octastremlogowhite.png" alt="" height="35">
