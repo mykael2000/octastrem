@@ -143,7 +143,7 @@ if (isset($_POST['changepicture'])) {
     <!-- Navigation Bar-->
     <header style="background-color: #fff;" id="topnav">
         <!-- Topbar Start -->
-        <div class="navbar-custom">
+        <div style="background-color: #080424;" class="navbar-custom">
             <div class="container-fluid">
                 <ul class="list-unstyled topnav-menu float-right mb-0">
 
