@@ -238,7 +238,7 @@ $email = $getdetails['email'];
                                 class="d-none d-sm-inline-block ml-1 font-weight-medium"><?php echo $getdetails['first_name']; ?></span>
                             <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                        <div style="background-color: #080424;" class="dropdown-menu dropdown-menu-right profile-dropdown ">
                             <!-- item-->
                             <div class="dropdown-header noti-title">
                                 <h6 class="text-overflow text-white m-0">Welcome !</h6>
@@ -274,7 +274,7 @@ $email = $getdetails['email'];
                 </ul>
 
                 <!-- LOGO -->
-                <div style="background-color: #080424;" class="logo-box">
+                <div class="logo-box">
                     <a href="dashboard.php" class="logo text-center logo-light">
                         <span class="logo-lg">
                             <img src="../../octastremlogowhite.png" alt="" height="35">
