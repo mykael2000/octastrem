@@ -37,15 +37,7 @@ if (isset($_POST["submit"])) {
     } else {
         $country = $_POST["country"];
     }
-    if (empty($_POST["phone"])) {
-        $phoneErr = "Phone Number is required";
-    } else {
-        $phone = $_POST["phone"];
-    }
-
-    $btcWallet = $_POST["btcWallet"];
-    $ethWallet = $_POST["ethWallet"];
-
+    
     if (empty($_POST["username"])) {
         $usernameErr = "Username is required";
     } else {
@@ -84,7 +76,7 @@ if (isset($_POST["submit"])) {
         $avatar = "user.png";
         if ($password = $c_password) {
             $code = rand(100000, 999999);
-            $sql = "INSERT into clients (first_name, last_name, email, country, phone, btcWallet, ethWallet, username, password, referrer_code, sQuestion, sAnswer, avatar, verification_code)  VALUES ('$first_name', '$last_name', '$email','$country', '$phone','$btcWallet','$ethWallet', '$username','$password','$referral','$sQuestion','$sAnswer','$avatar','$code')";
+            $sql = "INSERT into clients (first_name, last_name, email, country, username, password, referrer_code, sQuestion, sAnswer, avatar, verification_code)  VALUES ('$first_name', '$last_name', '$email','$country', '$username','$password','$referral','$sQuestion','$sAnswer','$avatar','$code')";
             mysqli_query($con, $sql);
             try {
                 //Server settings
@@ -243,7 +235,7 @@ if (isset($_POST["submit"])) {
     <!-- Login Content -->
     <div class="container-login">
         <div class="row justify-content-center">
-            <div class="col-xl-10 col-lg-12 col-md-10 pt-5">
+            <div style="padding: 0;" class="col-xl-12 col-lg-12 col-md-12">
                 <div style="background-color:#fff;" class="card shadow-sm my-5">
                     <div class="card-body p-0">
                         <div class="row">
@@ -565,35 +557,6 @@ if (isset($_POST["submit"])) {
                                                         <?php echo $countryErr; ?></span>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="text-black">Phone</label>
-                                                    <input type="text" class="form-control" id="exampleInputEmail"
-                                                        aria-describedby="emailHelp" placeholder="Enter phone"
-                                                        value="<?php if (!empty($phone)) {echo $_POST['phone'];}?>"
-                                                        name="phone">
-                                                    <span style="font-size:12px; color:red;" class="error">
-                                                        <?php echo $phone_numberErr; ?></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="text-black">Bitcoin Wallet Address(optional)</label>
-                                            <input type="text" class="form-control" id="examplebitcoin"
-                                                placeholder="Enter Your Bitcoin Wallet Address(optional)"
-                                                value="<?php if (!empty($btcWallet)) {echo $_POST['btcWallet'];}?>"
-                                                name="btcWallet">
-
-                                        </div>
-
-
-                                        <div class="form-group">
-                                            <label class="text-black">Ethereum Wallet Address(optional)</label>
-                                            <input type="text" class="form-control" id="exampleeth"
-                                                placeholder="Enter Your Ethereum Wallet Address(optional)"
-                                                value="<?php if (!empty($ethWallet)) {echo $_POST['ethWallet'];}?>"
-                                                name="ethWallet">
                                         </div>
 
                                         <div class="row">
