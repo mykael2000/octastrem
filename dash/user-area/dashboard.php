@@ -42,7 +42,7 @@ include "includes/header.php";
 
         <div class="row">
             <div class="col-md-12 col-xl-6">
-                <div class="card-box tilebox-one">
+                <div style="background-color: #bababa;" class="card-box tilebox-one">
                     <i class="icon-user float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Your Full Name</h6>
                     <h3 class="my-3"><?php echo $getdetails['first_name'] . ' ' . $getdetails['last_name']; ?></h3>
@@ -55,7 +55,7 @@ include "includes/header.php";
 
 
             <div class="col-md-6 col-xl-3">
-                <div class="card-box tilebox-one">
+                <div style="background-color: #bababa;" class="card-box tilebox-one">
                     <i class="icon-docs float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Active Deposits</h6>
                     <h3 class="my-3">$<span><?php echo number_format($getdetails['active_deposits']); ?></span>
@@ -66,7 +66,7 @@ include "includes/header.php";
             </div>
 
             <div class="col-md-6 col-xl-3">
-                <div class="card-box tilebox-one">
+                <div style="background-color: #bababa;" class="card-box tilebox-one">
                     <i class="icon-credit-card float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Your Balance</h6>
                     <h3 class="my-3">$<span><?php echo number_format($getdetails['total_balance']); ?></span>
@@ -82,7 +82,7 @@ include "includes/header.php";
         <div class="row">
 
             <div class="col-md-6 col-xl-3">
-                <div class="card-box tilebox-one">
+                <div style="background-color: #bababa;" class="card-box tilebox-one">
                     <i class="icon-chart float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Total Earnings</h6>
                     <h3 class="my-3">$<span><?php echo number_format($getdetails['total_earnings']); ?></span>
@@ -92,7 +92,7 @@ include "includes/header.php";
             </div>
 
             <div class="col-md-6 col-xl-3">
-                <div class="card-box tilebox-one">
+                <div style="background-color: #bababa;" class="card-box tilebox-one">
                     <i class="icon-docs float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Total Referrals</h6>
                     <h3 class="my-3"><span><?php echo $getdetails['total_referrals']; ?></span>
@@ -101,7 +101,7 @@ include "includes/header.php";
                 </div>
             </div>
             <div class="col-md-6 col-xl-3">
-                <div class="card-box tilebox-one">
+                <div style="background-color: #bababa;" class="card-box tilebox-one">
                     <i class="icon-social-dropbox float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Total Bonus</h6>
                     <h3 class="my-3">$<span><?php echo number_format($getdetails['total_bonus']); ?></span>
@@ -125,7 +125,7 @@ include "includes/header.php";
 
 
             <div class="col-md-6 col-xl-3">
-                <div class="card-box tilebox-one">
+                <div style="background-color: #bababa;" class="card-box tilebox-one">
                     <i class="icon-rocket float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Total Withdrawal</h6>
                     <h3 class="my-3">$<span><?php echo number_format($getdetails['total_withdrawals']); ?></span>
@@ -135,7 +135,7 @@ include "includes/header.php";
                 </div>
             </div>
             <div class="col-md-6 col-xl-3">
-                <div class="card-box tilebox-one">
+                <div style="background-color: #bababa;" class="card-box tilebox-one">
                     <i class="icon-rocket float-right m-0 h2 text-muted"></i>
                     <h6 class="text-muted text-uppercase mt-0">Pending Withdrawal</h6>
                     <h3 class="my-3">$<span><?php echo number_format($getdetails['pending_withdrawal']); ?></span>
