@@ -548,7 +548,7 @@ if (isset($_POST['changepicture'])) {
 
 
                                         <div class="form-group">
-                                            <button type="submit" class="btn btn-primary btn-sm saveBtn">Save
+                                            <button type="submit" style="background-color: #1b21d1;" class="btn btn-sm saveBtn">Save
                                                 changes</button>
                                         </div>
 
