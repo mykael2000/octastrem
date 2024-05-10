@@ -380,11 +380,11 @@ if (isset($_POST['changepicture'])) {
                     <div class="page-title-box">
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Home</a></li>
+                                <li class="breadcrumb-item text-black"><a href="javascript: void(0);">Home</a></li>
                                 <li class="breadcrumb-item active">Account</li>
                             </ol>
                         </div>
-                        <h4 class="page-title">Account Settings</h4>
+                        <h4 class="page-title text-black">Account Settings</h4>
                     </div>
                 </div>
             </div>
@@ -393,7 +393,7 @@ if (isset($_POST['changepicture'])) {
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <!-- Form Basic -->
-                    <div class="card mb-4">
+                    <div style="background-color: #080424;" class="card mb-4">
 
                         <div class="card-body">
 
