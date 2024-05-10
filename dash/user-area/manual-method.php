@@ -491,7 +491,7 @@ $getdetailsBNB = mysqli_fetch_assoc($queryBNB);
                 </div>
                 <!-- USDT Payment -->
                 <div class="col-xl-7 col-lg-7 mb-4">
-                    <div class="card">
+                    <div style="background-color: #080424;" class="card">
                         <div class="card-body">
                             <div style="height: 220px;" class="profile-section d-flex">
                                 <div class="profile-img">
@@ -537,7 +537,7 @@ $getdetailsBNB = mysqli_fetch_assoc($queryBNB);
                 </div>
                 <!-- BNB Payment -->
                 <div class="col-xl-7 col-lg-7 mb-4">
-                    <div class="card">
+                    <div style="background-color: #080424;" class="card">
                         <div class="card-body">
                             <div style="height: 220px;" class="profile-section d-flex">
                                 <div class="profile-img">
@@ -581,7 +581,7 @@ $getdetailsBNB = mysqli_fetch_assoc($queryBNB);
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 mb-4">
-                    <div class="card">
+                    <div style="background-color: #080424;" class="card">
                         <div class="card-body">
                             <div class="row align-items-center">
                                 <div class="col mr-2">
