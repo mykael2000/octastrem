@@ -209,11 +209,10 @@ if (isset($_POST['withdraw'])) {
 
 </head>
 
-<body style="background-color: #191a19
-;">
+<body style="background-color: #fff;">
 
     <!-- Navigation Bar-->
-    <header id="topnav">
+    <header style="background-color: #fff;" id="topnav">
         <!-- Topbar Start -->
         <div class="navbar-custom">
             <div class="container-fluid">
@@ -327,7 +326,7 @@ if (isset($_POST['withdraw'])) {
                                 class="d-none d-sm-inline-block ml-1 font-weight-medium"><?php echo $getdetails['first_name']; ?></span>
                             <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                        <div style="background-color: #080424;" class="dropdown-menu dropdown-menu-right profile-dropdown ">
                             <!-- item-->
                             <div class="dropdown-header noti-title">
                                 <h6 class="text-overflow text-white m-0">Welcome !</h6>
@@ -366,12 +365,12 @@ if (isset($_POST['withdraw'])) {
                 <div class="logo-box">
                     <a href="dashboard.php" class="logo text-center logo-light">
                         <span class="logo-lg">
-                            <img src="../../Octastremlogo.png" alt="" height="35">
+                            <img src="../../octastremlogo.png" alt="" height="35">
                             <!-- <span class="logo-lg-text-dark">Uplon</span> -->
                         </span>
                         <span class="logo-sm">
                             <!-- <span class="logo-lg-text-dark">U</span> -->
-                            <img src="../../Octastremlogo.png" alt="" height="24">
+                            <img src="../../octastremlogo.png" alt="" height="24">
                         </span>
                     </a>
                 </div>
@@ -389,32 +388,32 @@ if (isset($_POST['withdraw'])) {
                         <ul class="navigation-menu">
 
                             <li class="has-submenu">
-                                <a href="dashboard.php">
+                                <a style="color: black;" href="dashboard.php">
                                     <i class="mdi mdi-account-tie"></i>My Account
                                 </a>
                             </li>
 
                             <li class="has-submenu">
-                                <a href="account.php">
+                                <a style="color: black;" href="account.php">
                                     <i class="mdi mdi-account-settings"></i>Edit Account
                                 </a>
                             </li>
 
                             <li class="has-submenu">
-                                <a href="create.php"> <i class="mdi mdi-account-cash"></i>Deposit</a>
+                                <a style="color: black;" href="create.php"> <i class="mdi mdi-account-cash"></i>Deposit</a>
                             </li>
 
                             <li class="has-submenu">
-                                <a href="show.php">
+                                <a style="color: black;" href="show.php">
                                     <i class="mdi mdi-cash-multiple"></i>Deposit List</a>
                             </li>
 
                             <li class="has-submenu">
-                                <a href="account.php"> <i class="mdi mdi-account-lock"></i>Security</a>
+                                <a style="color: black;" href="account.php"> <i class="mdi mdi-account-lock"></i>Security</a>
                             </li>
 
                             <li class="has-submenu">
-                                <a href="withdrawal.php"> <i class="mdi mdi-cash-refund"></i>Withdrawal History</a>
+                                <a style="color: black;" href="withdrawal.php"> <i class="mdi mdi-cash-refund"></i>Withdrawal History</a>
                             </li>
 
                             <!-- <li class="has-submenu">
@@ -422,7 +421,7 @@ if (isset($_POST['withdraw'])) {
                             </li> -->
 
                             <li class="has-submenu">
-                                <a href="logout.php" onclick="event.preventDefault();
+                                <a style="color: black;" href="logout.php" onclick="event.preventDefault();
                                                         this.closest('form').submit();">
                                     <i class="mdi mdi-logout-variant"></i>
                                     <span>Logout</span>

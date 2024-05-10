@@ -255,7 +255,7 @@ if (isset($_POST['changepicture'])) {
                                 class="d-none d-sm-inline-block ml-1 font-weight-medium"><?php echo $getdetails['first_name']; ?></span>
                             <i class="mdi mdi-chevron-down d-none d-sm-inline-block"></i>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                        <div style="background-color: #080424;" class="dropdown-menu dropdown-menu-right profile-dropdown ">
                             <!-- item-->
                             <div class="dropdown-header noti-title">
                                 <h6 class="text-overflow text-white m-0">Welcome !</h6>
