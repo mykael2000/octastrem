@@ -58,22 +58,22 @@ if (isset($_POST['submit'])) {
 
 </head>
 
-<body class="bg-gradient-login" style="background:black;">
+<body class="bg-gradient-login" style="background-color:#fff;">
     <!-- Login Content -->
     <div class="container-login">
         <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-12 col-md-9">
-                <div style="background-color: #222;" class="card shadow-sm my-5">
+            <div style="padding: 0;" class="col-xl-12 col-lg-12 col-md-12">
+                <div style="background-color:#fff;" class="card shadow-sm my-5">
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="login-form">
                                     <div class="d-flex justify-content-center p-3 pb-5">
-                                        <img src="../../Octastremlogowhite.png" alt="logo">
+                                        <img src="../../octastremlogo.png" alt="logo">
                                     </div>
                                     <div class="text-center">
-                                        <h1 class="h4 text-white mb-4">KYC Verification</h1>
-                                        <p class="text-info text-center text-white">Please verify your account by
+                                        <h1 class="h4 text-black mb-4">KYC Verification</h1>
+                                        <p class="text-info text-center text-black">Please verify your account by
                                             pressing proceed
                                             below. You can skip this page and return back later when you want to
                                             complete the form</p>
@@ -85,11 +85,11 @@ if (isset($_POST['submit'])) {
                                         <input type="hidden" name="_token"
                                             value="UUgTSLdlNWrlZr2zoQsfdXtqdTdSMRaHMC805dUI">
                                         <div class="form-group border-bottom">
-                                            <h4 class="text-white">Identification Document</h4>
+                                            <h4 class="text-black">Identification Document</h4>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="text-white">Please select the identification document that you
+                                            <label class="text-black">Please select the identification document that you
                                                 want to
                                                 upload</label>
                                             <select class="form-control" id="exampleInputFirstName" name="identity_type"
@@ -101,18 +101,18 @@ if (isset($_POST['submit'])) {
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="text-white">Please upload a file with clear images of your
+                                            <label class="text-black">Please upload a file with clear images of your
                                                 ID/passport</label>
                                             <input type="file" class="form-control" id="exampleInputLastName"
                                                 name="fileToUpload" required>
                                         </div>
 
                                         <div class="form-group border-bottom">
-                                            <h4 class="text-white">Address Document</h4>
+                                            <h4 class="text-black">Address Document</h4>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="text-white">Please select a valid address document for our KYC
+                                            <label class="text-black">Please select a valid address document for our KYC
                                                 review
                                                 process</label>
                                             <select class="form-control" id="exampleInputFirstName"
@@ -127,7 +127,7 @@ if (isset($_POST['submit'])) {
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="text-white">Please upload a file with clear images of your
+                                            <label class="text-black">Please upload a file with clear images of your
                                                 ID/passport</label>
                                             <input type="file" class="form-control" id="exampleInputLastName"
                                                 name="address_document" required>
@@ -136,14 +136,14 @@ if (isset($_POST['submit'])) {
 
                                         <div class="form-group">
                                             <button name="submit" type="submit" class="btn text-white btn-block"
-                                                style="background-color:#ffc107; border-radius: 25px;">Submit</button>
+                                                style="background-color:#1b21d1; border-radius: 25px;">Submit</button>
                                         </div>
 
                                     </form>
                                     <hr>
-                                    <div class="text-center text-white">
+                                    <div class="text-center text-black">
                                         Skip to <a class="font-weight-bold small" href="../user-area/dashboard.php"
-                                            style="color:#ffc107;">dashboard</a>
+                                            style="color:#1b21d1;">dashboard</a>
                                     </div>
 
                                 </div>
