@@ -154,7 +154,7 @@ $getdetailsBNB = mysqli_fetch_assoc($queryBNB);
 
 </head>
 
-<body style="background-color: #fff;">
+<body style="background-color: #020112;">
 
     <!-- Navigation Bar-->
     <header style="background-color: #fff;" id="topnav">
