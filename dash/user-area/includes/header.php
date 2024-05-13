@@ -80,10 +80,26 @@ $email = $getdetails['email'];
         display: none !important;
     }
     .navbar-nav {
-      width: 250px; /* Adjust the width as needed */
+      padding-left: 0;
     }
     .nav-link {
       color: black;
+    }
+    /* Style for side navbar */
+    .side-navbar {
+      position: fixed;
+      top: 0;
+      left: -250px; /* Initial position off-screen */
+      width: 250px; /* Adjust the width as needed */
+      height: 100%;
+      background-color: #f8f9fa; /* Light gray background color */
+      transition: left 0.3s ease; /* Transition effect for smooth animation */
+    }
+    /* Show the side navbar on mobile devices */
+    @media (max-width: 767px) {
+      .side-navbar {
+        left: 0; /* Bring the navbar on-screen */
+      }
     }
     </style>
     <script type="text/javascript">
