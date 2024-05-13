@@ -79,6 +79,12 @@ $email = $getdetails['email'];
     #google_translate_element2 {
         display: none !important;
     }
+    .navbar-nav {
+      width: 250px; /* Adjust the width as needed */
+    }
+    .nav-link {
+      color: black;
+    }
     </style>
     <script type="text/javascript">
     function googleTranslateElementInit2() {
@@ -290,88 +296,56 @@ $email = $getdetails['email'];
             </div> <!-- end container-fluid-->
         </div>
         <!-- end Topbar -->
-        <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav flex-column">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
         <div class="topbar-menu">
-            <div class="container-fluid">
-                <form method="POST" action="logout.php">
-
-                    <div id="navigation">
-                        <!-- Navigation Menu-->
-                        <ul class="navigation-menu">
-
-                            <li class="has-submenu">
-                                <a style="color: black;" href="dashboard.php">
-                                    <i class="mdi mdi-account-tie"></i>My Account
-                                </a>
-                            </li>
-
-                            <li class="has-submenu">
-                                <a style="color: black;" href="account.php">
-                                    <i class="mdi mdi-account-settings"></i>Edit Account
-                                </a>
-                            </li>
-
-                            <li class="has-submenu">
-                                <a style="color: black;" href="create.php"> <i class="mdi mdi-account-cash"></i>Deposit</a>
-                            </li>
-
-                            <li class="has-submenu">
-                                <a style="color: black;" href="show.php">
-                                    <i class="mdi mdi-cash-multiple"></i>Deposit List</a>
-                            </li>
-
-                            <li class="has-submenu">
-                                <a style="color: black;" href="account.php"> <i class="mdi mdi-account-lock"></i>Security</a>
-                            </li>
-
-                            <li class="has-submenu">
-                                <a style="color: black;" href="withdrawal.php"> <i class="mdi mdi-cash-refund"></i>Withdrawal History</a>
-                            </li>
-
-                            <!-- <li class="has-submenu">
-                                <a href="referral.php"> <i class="mdi mdi-account-group"></i>Referrals</a>
-                            </li> -->
-
-                            <li class="has-submenu">
-                                <a style="color: black;" href="logout.php" onclick="event.preventDefault();
-                                                        this.closest('form').submit();">
-                                    <i class="mdi mdi-logout-variant"></i>
-                                    <span>Logout</span>
-                                </a>
-                            </li>
-
-                        </ul>
-                        <!-- End navigation menu -->
-
-                        <div class="clearfix"></div>
-                    </div>
-                    <!-- end #navigation -->
-                </form>
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end navbar-custom -->
+    <div class="container-fluid">
+      <div id="navigation">
+        <!-- Navigation Menu-->
+        <ul class="navbar-nav flex-column">
+          <li class="has-submenu">
+            <a class="nav-link" href="dashboard.php">
+              <i class="mdi mdi-account-tie"></i>My Account
+            </a>
+          </li>
+          <li class="has-submenu">
+            <a class="nav-link" href="account.php">
+              <i class="mdi mdi-account-settings"></i>Edit Account
+            </a>
+          </li>
+          <li class="has-submenu">
+            <a class="nav-link" href="create.php">
+              <i class="mdi mdi-account-cash"></i>Deposit
+            </a>
+          </li>
+          <li class="has-submenu">
+            <a class="nav-link" href="show.php">
+              <i class="mdi mdi-cash-multiple"></i>Deposit List
+            </a>
+          </li>
+          <li class="has-submenu">
+            <a class="nav-link" href="account.php">
+              <i class="mdi mdi-account-lock"></i>Security
+            </a>
+          </li>
+          <li class="has-submenu">
+            <a class="nav-link" href="withdrawal.php">
+              <i class="mdi mdi-cash-refund"></i>Withdrawal History
+            </a>
+          </li>
+          <li class="has-submenu">
+            <form method="POST" action="logout.php" class="nav-link" onclick="event.preventDefault(); this.closest('form').submit();">
+              <i class="mdi mdi-logout-variant"></i>
+              <span>Logout</span>
+            </form>
+          </li>
+        </ul>
+        <!-- End navigation menu -->
+        <div class="clearfix"></div>
+      </div>
+      <!-- end #navigation -->
+    </div>
+    <!-- end container -->
+  </div>
 
     </header>
     <!-- End Navigation Bar-->
