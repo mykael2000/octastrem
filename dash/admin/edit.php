@@ -243,7 +243,7 @@ echo $getdetails['last_name']; ?>"
                                                     name="totalReferrals">
                                             </div>
                                             <div class="col-xxl-6 col-xl-6 col-lg-6">
-                                                <label class="form-label">Total Deposits</label>
+                                                <!-- <label class="form-label">Total Deposits</label> -->
                                                 <input type="hidden" class="form-control" placeholder="" value="<?php echo $getdetails['total_deposits']; ?>"
                                                     name="totalDeposits">
                                             </div>
