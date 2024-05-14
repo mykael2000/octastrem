@@ -62,7 +62,7 @@
                 <div class="site-navigation">
                     <div class="row g-0 align-items-center">
                         <div class="col-2">
-                            <a href="index.html" class="logo m-0 float-start"><img src="Octastremlogo.png"><span
+                            <a href="index.html" class="logo m-0 float-start"><img src="octastremlogo.png"><span
                                     class="text-primary"></span></a>
                         </div>
                         <div class="col-6 text-center ">
@@ -578,7 +578,7 @@
                                 Before depositing, please make sure which coin you want for the transfer.
 
                                 For example, If you want to withdraw Bitcoin (BTC) from an external exchange to your
-                                Travodex account. You need to select “Withdraw” and choose Bitcoin on external exchange
+                                Octastrem account. You need to select “Withdraw” and choose Bitcoin on external exchange
                                 then click on send on your external exchange.
 
 
@@ -586,7 +586,7 @@
 
                                 Web：
 
-                                Sign in on the Travodex website, click Make A Deposit > then select the crypto and
+                                Sign in on the Octastrem website, click Make A Deposit > then select the crypto and
                                 network to deposit.
                                 <br>
                                 Caution:
@@ -630,7 +630,7 @@
                                 Processing: Your withdrawal is still being reviewed, and we will process your withdrawal
                                 after the review is completed.
                                 If your withdrawal has been under review for more than 15 minutes, please contact
-                                Travodex customer service, and we will process it for you as soon as possible.
+                                Octastrem customer service, and we will process it for you as soon as possible.
                                 <br>
                                 2.
                                 Pending: We are preparing to execute your withdrawal.
@@ -648,7 +648,7 @@
                                 provide the following information and contact our live chat or email
                                 support@octastrem.com:
                                 <br>
-                                Travodex account (mobile phone/email used for registration)
+                                Octastrem account (mobile phone/email used for registration)
                                 Withdrawal currency name, withdrawal amount,
                                 Screenshot of the details of the withdrawal record
                                 We will check the progress of the withdrawal for you as soon as possible after receiving
