@@ -210,8 +210,7 @@
                         <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                Octastrem generates profits through strategic investments and trading in various markets,
-                                including cryptocurrencies and stocks.
+                                Octastrem generates profits through strategic investments and trading in various cryptocurrency markets.
                             </div>
                         </div>
                     </div>
