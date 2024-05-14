@@ -42,37 +42,84 @@
             display: none;
         }
     }
+
+    #row-image {
+        background-image: url('back.gif');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    @media (min-width: 768px) {
+        #row-image {
+            background-repeat: no-repeat;
+            background-size: 0px;
+
+            /* Adjust background size for desktop screens */
+        }
+
+    }
+
+    #nav-area {
+        display: none;
+    }
+
+    @media only screen and (max-width: 767px) {
+        #mobile-nav-container {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #fff;
+            /* Add any other styles you need */
+        }
+    }
     </style>
 </head>
 
 <body>
 
-    <div style="background-color:#fff;" class="site-mobile-menu site-navbar-target">
-        <div style="background-color:fff;" class="site-mobile-menu-header">
+<div style="background-color:#fff;" class="site-mobile-menu site-navbar-target">
+        <div style="background-color:#fff;" class="site-mobile-menu-header">
             <div class="site-mobile-menu-close">
                 <span class="icofont-close js-menu-toggle"></span>
+                <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                    <li style="padding: 5px;"><a
+                            style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
+                            class="text-black btn btn-outline-white-reverse me-4" href="dash/auth/login.php">Sign
+                            in</a></li>
+                    <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px"
+                            class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
+                            Started</a></li>
+                </ul>
             </div>
         </div>
         <div style="background-color:#fff;" class="site-mobile-menu-body"></div>
     </div>
-
-    <nav style="background-color:#fff; padding-top: 10px;" class="site-nav">
+    <nav style="background-color:#fff; padding-top: 10px;" id="mobile-nav-container" class="site-nav">
         <div class="container">
             <div class="menu-bg-wrap">
                 <div class="site-navigation">
                     <div class="row g-0 align-items-center">
                         <div class="col-2">
-                            <a href="index.html" class="logo m-0 float-start"><img src="octastremlogo.png"><span
+                            <a href="index.html" class="logo m-0 float-start"><img src="../octastremlogo.png"><span
                                     class="text-primary"></span></a>
                         </div>
                         <div class="col-6 text-center ">
-                            <ul class="text-black js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li><a class="text-black" href="index.php">Home</a></li>
-                                <li><a class="text-black" href="about.php">About Us</a></li>
+                            <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
+                                        href="index.php">Home</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
+                                        href="index.php#plans">Trading Plans</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
+                                        href="faq.php">FAQ</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black" href="">Buy
+                                        Crypto</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
+                                        href="about.php">About Us</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
+                                        href="contact.php">Contact Us</a></li>
 
-                                <li><a class="text-black" href="faq.php">FAQ</a></li>
-                                <li><a class="text-black" href="index.php#plans">Investment Plans</a></li>
-                                <li><a class="text-black" href="contact.php">Contact Us</a></li>
                                 <li>
                                     <div id="google_translate_element"></div>
                                 </li>
@@ -84,12 +131,15 @@
                                 <span></span>
                             </a>
 
-                            <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #0f0b85;"
+                            <ul id="nav-area"
+                                class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                                <li style="padding: 5px;"><a
+                                        style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
                                         class="text-black btn btn-outline-white-reverse me-4"
                                         href="dash/auth/login.php">Sign
                                         in</a></li>
-                                <li style="padding: 5px;"><a style="color: #fff; background-color: #0f0b85;"
+                                <li style="padding: 5px;"><a
+                                        style="color: #fff; background-color: #1b21d1; border-radius: 25px"
                                         class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
                                         Started</a></li>
                             </ul>
