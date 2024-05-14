@@ -226,7 +226,7 @@ body {
   }
 }
 .topbar-light .navbar-custom {
-  background-color: #3c4556;
+  background-color: #080424;
 }
 .topbar-light .navbar-custom .topnav-menu .nav-link {
   color: #fff;
@@ -296,7 +296,7 @@ body {
 #topnav .navbar-toggle span {
   height: 2px;
   width: 100%;
-  background-color: rgba(4, 4, 78, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   display: block;
   margin-bottom: 5px;
   transition: -webkit-transform 0.5s ease;
