@@ -606,7 +606,7 @@ body {
 }
 .topbar-light #topnav .navbar-custom .app-search .btn {
   background-color: #041a41;
-  color: #fff;
+  color: #7f88a0;
   border-color: transparent;
   border-radius: 0 30px 30px 0;
   -webkit-box-shadow: none !important;
@@ -623,7 +623,7 @@ body {
   background-color: rgba(198, 202, 214, 0.6);
 }
 .topbar-light .navigation-menu > li > a {
-  color: #9097a7;
+  color: #ffffff;
 }
 .topbar-light .navigation-menu > li > a:hover {
   color: #64b0f2;
