@@ -545,13 +545,13 @@ body {
   }
   #navigation {
     position: absolute;
-    top: 70px;
-    left: 0;
+    top: 0;
+    left: 70px;
     width: auto;
     display: none;
     height: 100%;
     padding-bottom: 0;
-    overflow: auto;
+    overflow: hidden;
     -webkit-box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.05);
     background-color: #191a19;
