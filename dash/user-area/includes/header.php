@@ -313,7 +313,7 @@ $email = $getdetails['email'];
         </div>
         <!-- end Topbar -->
 
-        <div class="topbar-menu">
+        <div style="background-color: #080424;" class="topbar-menu">
             <div class="container-fluid">
                 <form method="POST" action="logout.php">
 
