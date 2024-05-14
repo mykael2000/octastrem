@@ -544,9 +544,9 @@ body {
     float: left;
   }
   #navigation {
-    position: fixed;
-    top: 0;
-    left: 70px;
+    position: absolute;
+    top: 70px;
+    left: 0;
     width: auto;
     display: none;
     height: 100%;
@@ -562,9 +562,9 @@ body {
   }
 }
 @media (max-height: 375px) {
-  /* .navigation-menu {
+  .navigation-menu {
     max-height: 240px !important;
-  } */
+  }
 }
 .topbar-light .logo-light {
   display: none;
