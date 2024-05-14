@@ -547,7 +547,7 @@ body {
     position: absolute;
     top: 70px;
     left: 0;
-    width: auto;
+    width: 100%;
     display: none;
     height: 100%;
     padding-bottom: 0;
