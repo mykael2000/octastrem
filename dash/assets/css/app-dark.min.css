@@ -296,7 +296,7 @@ body {
 #topnav .navbar-toggle span {
   height: 2px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(4, 4, 78, 0.6);
   display: block;
   margin-bottom: 5px;
   transition: -webkit-transform 0.5s ease;
@@ -322,10 +322,10 @@ body {
   transform: rotate(-45deg);
 }
 #topnav .has-submenu.active > a {
-  color: #c8cddc;
+  color: #051f6f;
 }
 #topnav .has-submenu.active .submenu li.active > a {
-  color: #c8cddc;
+  color: #051f6f;
 }
 #topnav .topbar-menu {
   margin-top: 70px;
@@ -364,10 +364,10 @@ body {
   .navigation-menu > li > a:active,
   .navigation-menu > li > a:focus,
   .navigation-menu > li > a:hover {
-    color: #c8cddc;
+    color: #051f6f;
   }
   .navigation-menu > li:hover a {
-    color: #c8cddc;
+    color: #051f6f;
   }
   .navigation-menu > li:first-of-type > a {
     padding-left: 0;
@@ -422,7 +422,7 @@ body {
     font-size: 14.5px;
   }
   .navigation-menu > li .submenu li a:hover {
-    color: #c8cddc;
+    color: #051f6f;
   }
   .navigation-menu > li .submenu li.has-submenu > a .arrow-down:after {
     right: 20px !important;
@@ -620,7 +620,7 @@ body {
 }
 .topbar-light #topnav .has-submenu:active > a,
 .topbar-light #topnav .has-submenu:hover > a {
-  color: #c8cddc;
+  color: #051f6f;
 }
 .topbar-light #topnav .navbar-toggle span {
   background-color: rgba(198, 202, 214, 0.6);
@@ -633,7 +633,7 @@ body {
 }
 @media (max-width: 991px) {
   .topbar-light #topnav .has-submenu.active > a {
-    color: #c8cddc;
+    color: #051f6f;
   }
 }
 @media (min-width: 992px) {
