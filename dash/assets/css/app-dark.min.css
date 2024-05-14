@@ -557,7 +557,7 @@ body {
     overflow: auto;
     -webkit-box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.05);
-    background-color: #191a19;
+    background-color: #080424;
   }
   #navigation.open {
     display: block;

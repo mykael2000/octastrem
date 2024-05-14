@@ -317,7 +317,7 @@ $email = $getdetails['email'];
             <div class="container-fluid">
                 <form method="POST" action="logout.php">
 
-                    <div style="background-color: #080424;" id="navigation">
+                    <div id="navigation">
                         <!-- Navigation Menu-->
                         <ul class="navigation-menu">
 
