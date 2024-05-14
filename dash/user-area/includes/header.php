@@ -152,9 +152,9 @@ $email = $getdetails['email'];
             <div class="container-fluid">
                 <ul class="list-unstyled topnav-menu float-right mb-0">
 
-                    <li style="background-color: #080424;" class="dropdown notification-list">
+                    <li class="dropdown notification-list">
                         <!-- Mobile menu toggle-->
-                        <a class="navbar-toggle nav-link">
+                        <a style="background-color: #080424;" class="navbar-toggle nav-link">
                             <div class="lines">
                                 <span></span>
                                 <span></span>
