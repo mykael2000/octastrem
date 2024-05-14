@@ -322,32 +322,32 @@ $email = $getdetails['email'];
                         <ul class="navigation-menu">
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="dashboard.php">
+                                <a  href="dashboard.php">
                                     <i class="mdi mdi-account-tie"></i>My Account
                                 </a>
                             </li>
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="account.php">
+                                <a  href="account.php">
                                     <i class="mdi mdi-account-settings"></i>Edit Account
                                 </a>
                             </li>
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="create.php"> <i class="mdi mdi-account-cash"></i>Deposit</a>
+                                <a  href="create.php"> <i class="mdi mdi-account-cash"></i>Deposit</a>
                             </li>
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="show.php">
+                                <a  href="show.php">
                                     <i class="mdi mdi-cash-multiple"></i>Deposit List</a>
                             </li>
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="account.php"> <i class="mdi mdi-account-lock"></i>Security</a>
+                                <a  href="account.php"> <i class="mdi mdi-account-lock"></i>Security</a>
                             </li>
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="withdrawal.php"> <i class="mdi mdi-cash-refund"></i>Withdrawal History</a>
+                                <a  href="withdrawal.php"> <i class="mdi mdi-cash-refund"></i>Withdrawal History</a>
                             </li>
 
                             <!-- <li class="has-submenu">
@@ -355,7 +355,7 @@ $email = $getdetails['email'];
                             </li> -->
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="logout.php" onclick="event.preventDefault();
+                                <a  href="logout.php" onclick="event.preventDefault();
                                                         this.closest('form').submit();">
                                     <i class="mdi mdi-logout-variant"></i>
                                     <span>Logout</span>

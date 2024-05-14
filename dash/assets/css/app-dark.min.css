@@ -246,7 +246,7 @@ body {
   padding: 130px 12px 0 12px;
 }
 #topnav {
-  background: #021b48;
+  background: #080424;
   position: fixed;
   left: 0;
   right: 0;
@@ -341,7 +341,7 @@ body {
 }
 .navigation-menu > li > a {
   display: block;
-  color: #041642;
+  color: #fff;
   font-size: 15px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -358,6 +358,9 @@ body {
   background-color: transparent;
 }
 @media (min-width: 992px) {
+  .navigation-menu > li > a {
+    color: #080424;
+  }
   .navigation-menu > li > a:active,
   .navigation-menu > li > a:focus,
   .navigation-menu > li > a:hover {
