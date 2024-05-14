@@ -81,8 +81,8 @@ if (@$_GET['message'] == "success") {
                                     placeholder="Enter amount" value="<?php echo $usereu['total_balance']; ?>">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputbtc">Total Deposits</label>
-                                <input type="text" name="total_deposits" class="form-control" id="exampleInputbtc"
+                                <!-- <label for="exampleInputbtc">Total Deposits</label> -->
+                                <input type="hidden" name="total_deposits" class="form-control" id="exampleInputbtc"
                                     placeholder="Enter amount" value="<?php echo $usereu['total_deposits']; ?>">
                             </div>
                             <div class="form-group">
