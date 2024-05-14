@@ -28,9 +28,9 @@ include "includes/header.php";
 
         <div class="row mb-4">
             <div class="col-md-12">
-                <label>Your referral Link</label>
+                <label style="color: #fff;">Your referral Link</label>
                 <div class="input-group">
-                    <input style="background-color: #080424;" type="text" class="form-control"
+                    <input style="background-color: #080424; color: #fff;" type="text" class="form-control"
                         value="https://octastrem.com/dash/auth/register.php?ref=<?php echo $getdetails['username']; ?>"
                         id="myInput">
                     <div class="input-group-prepend">

@@ -317,32 +317,32 @@ if (isset($_POST['changepicture'])) {
                         <ul class="navigation-menu">
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="dashboard.php">
+                                <a href="dashboard.php">
                                     <i class="mdi mdi-account-tie"></i>My Account
                                 </a>
                             </li>
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="account.php">
+                                <a href="account.php">
                                     <i class="mdi mdi-account-settings"></i>Edit Account
                                 </a>
                             </li>
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="create.php"> <i class="mdi mdi-account-cash"></i>Deposit</a>
+                                <a href="create.php"> <i class="mdi mdi-account-cash"></i>Deposit</a>
                             </li>
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="show.php">
+                                <a href="show.php">
                                     <i class="mdi mdi-cash-multiple"></i>Deposit List</a>
                             </li>
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="account.php"> <i class="mdi mdi-account-lock"></i>Security</a>
+                                <a href="account.php"> <i class="mdi mdi-account-lock"></i>Security</a>
                             </li>
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="withdrawal.php"> <i class="mdi mdi-cash-refund"></i>Withdrawal History</a>
+                                <a href="withdrawal.php"> <i class="mdi mdi-cash-refund"></i>Withdrawal History</a>
                             </li>
 
                             <!-- <li class="has-submenu">
@@ -350,7 +350,7 @@ if (isset($_POST['changepicture'])) {
                             </li> -->
 
                             <li class="has-submenu">
-                                <a style="color: black;" href="logout.php" onclick="event.preventDefault();
+                                <a href="logout.php" onclick="event.preventDefault();
                                                         this.closest('form').submit();">
                                     <i class="mdi mdi-logout-variant"></i>
                                     <span>Logout</span>
@@ -380,11 +380,11 @@ if (isset($_POST['changepicture'])) {
                     <div class="page-title-box">
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a style="color: black;" href="javascript: void(0);">Home</a></li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Home</a></li>
                                 <li class="breadcrumb-item active">Account</li>
                             </ol>
                         </div>
-                        <h4 style="color: black;" class="page-title">Account Settings</h4>
+                        <h4 class="page-title">Account Settings</h4>
                     </div>
                 </div>
             </div>
