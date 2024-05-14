@@ -152,7 +152,7 @@ $email = $getdetails['email'];
             <div class="container-fluid">
                 <ul class="list-unstyled topnav-menu float-right mb-0">
 
-                    <li class="dropdown notification-list">
+                    <li style="background-color: #080424;" class="dropdown notification-list">
                         <!-- Mobile menu toggle-->
                         <a class="navbar-toggle nav-link">
                             <div class="lines">
@@ -313,7 +313,7 @@ $email = $getdetails['email'];
         </div>
         <!-- end Topbar -->
 
-        <div style="background-color: #080424;" class="topbar-menu">
+        <div class="topbar-menu">
             <div class="container-fluid">
                 <form method="POST" action="logout.php">
 
