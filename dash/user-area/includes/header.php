@@ -154,7 +154,7 @@ $email = $getdetails['email'];
 
                     <li class="dropdown notification-list">
                         <!-- Mobile menu toggle-->
-                        <a style="background-color: #080424;" class="navbar-toggle nav-link">
+                        <a class="navbar-toggle nav-link">
                             <div class="lines">
                                 <span></span>
                                 <span></span>
@@ -317,7 +317,7 @@ $email = $getdetails['email'];
             <div class="container-fluid">
                 <form method="POST" action="logout.php">
 
-                    <div id="navigation">
+                    <div style="background-color: #080424;" id="navigation">
                         <!-- Navigation Menu-->
                         <ul class="navigation-menu">
 
