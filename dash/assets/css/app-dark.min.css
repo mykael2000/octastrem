@@ -294,10 +294,10 @@ body {
   transition: all 0.5s ease;
 }
 #topnav .navbar-toggle span {
-  height: 100%;
-  width: 50%;
-  background-color: rgba(5, 18, 93, 0.6);
-  display: flex;
+  height: 2px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: block;
   margin-bottom: 5px;
   transition: -webkit-transform 0.5s ease;
   -webkit-transition: -webkit-transform 0.5s ease;
@@ -309,7 +309,6 @@ body {
 }
 #topnav .navbar-toggle.open span:first-child {
   top: 18px;
-  left: 10px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
