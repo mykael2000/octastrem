@@ -229,13 +229,13 @@ body {
   background-color: #3c4556;
 }
 .topbar-light .navbar-custom .topnav-menu .nav-link {
-  color: #8a93a9;
+  color: #fff;
 }
 .topbar-light .navbar-custom .notification-list .noti-icon-badge {
   border-color: #3c4556;
 }
 .topbar-light .navbar-custom .button-menu-mobile {
-  color: #8a93a9;
+  color: #fff;
 }
 @media (min-width: 1200px) {
   .container-fluid {
@@ -246,7 +246,7 @@ body {
   padding: 130px 12px 0 12px;
 }
 #topnav {
-  background: #3c4556;
+  background: #021b48;
   position: fixed;
   left: 0;
   right: 0;
