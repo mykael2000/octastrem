@@ -11,7 +11,7 @@
                     <ul class="list-unstyled links">
                         <!-- <li><a href="tel://+1524265975">+1524265975</a></li> -->
 
-                        <li><a href="mailto:support@Octastrem..com">support@Octastrem..com</a></li>
+                        <li><a href="mailto:support@Octastrem..com">support@octastrem.com</a></li>
                     </ul>
                 </div> <!-- /.widget -->
             </div> <!-- /.col-lg-4 -->

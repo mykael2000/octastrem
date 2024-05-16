@@ -7,8 +7,7 @@
     <meta name="author" content="Untree.co">
     <link rel="shortcut icon" href="images/favicon.png">
     <meta content="Octastrem: Bitcoin and digital asset infrastructure" />
-    <meta name="description"
-        content="Octastrem is the global leader in Bitcoin and blockchain technologies, building the foundations for the financial infrastructure of the future." />
+    <meta name="description" content="Octastrem is the global leader in Bitcoin and blockchain technologies, building the foundations for the financial infrastructure of the future." />
     <meta name="keywords" content="bootstrap, bootstrap5" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,65 +30,62 @@
 
     <title>Octastrem - Terms</title>
     <style>
-    @media only screen and (max-width: 600px) {
-        #field {
-            display: none;
+        @media only screen and (max-width: 600px) {
+            #field {
+                display: none;
+            }
         }
-    }
 
-    @media only screen and (min-width: 992px) {
-        #field-mobile {
-            display: none;
+        @media only screen and (min-width: 992px) {
+            #field-mobile {
+                display: none;
+            }
         }
-    }
 
-    #row-image {
-        background-image: url('back.gif');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center;
-    }
-
-    @media (min-width: 768px) {
         #row-image {
+            background-image: url('back.gif');
             background-repeat: no-repeat;
-            background-size: 0px;
-
-            /* Adjust background size for desktop screens */
+            background-size: 100% 100%;
+            background-position: center;
         }
 
-    }
+        @media (min-width: 768px) {
+            #row-image {
+                background-repeat: no-repeat;
+                background-size: 0px;
 
-    #nav-area {
-        display: none;
-    }
+                /* Adjust background size for desktop screens */
+            }
 
-    @media only screen and (max-width: 767px) {
-        #mobile-nav-container {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1000;
-            background-color: #fff;
-            /* Add any other styles you need */
         }
-    }
+
+        #nav-area {
+            display: none;
+        }
+
+        @media only screen and (max-width: 767px) {
+            #mobile-nav-container {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+                background-color: #fff;
+                /* Add any other styles you need */
+            }
+        }
     </style>
 </head>
 
 <body>
 
-<div style="background-color:#fff;" class="site-mobile-menu site-navbar-target">
+    <div style="background-color:#fff;" class="site-mobile-menu site-navbar-target">
         <div style="background-color:#fff;" class="site-mobile-menu-header">
             <div class="site-mobile-menu-close">
                 <span class="icofont-close js-menu-toggle"></span>
                 <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                    <li style="padding: 5px;"><a
-                            style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
-                            class="text-black btn btn-outline-white-reverse me-4" href="dash/auth/login.php">Sign
+                    <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px" class="text-black btn btn-outline-white-reverse me-4" href="dash/auth/login.php">Sign
                             in</a></li>
-                    <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px"
-                            class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
+                    <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px" class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
                             Started</a></li>
                 </ul>
             </div>
@@ -102,23 +98,17 @@
                 <div class="site-navigation">
                     <div class="row g-0 align-items-center">
                         <div class="col-2">
-                            <a href="index.html" class="logo m-0 float-start"><img src="../octastremlogo.png"><span
-                                    class="text-primary"></span></a>
+                            <a href="index.html" class="logo m-0 float-start"><img src="../octastremlogo.png"><span class="text-primary"></span></a>
                         </div>
                         <div class="col-6 text-center ">
                             <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
-                                        href="index.php">Home</a></li>
-                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
-                                        href="index.php#plans">Trading Plans</a></li>
-                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
-                                        href="faq.php">FAQ</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black" href="index.php">Home</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black" href="index.php#plans">Trading Plans</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black" href="faq.php">FAQ</a></li>
                                 <li><a style="font-size: 17px; font-weight: 600" class="text-black" href="">Buy
                                         Crypto</a></li>
-                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
-                                        href="about.php">About Us</a></li>
-                                <li><a style="font-size: 17px; font-weight: 600" class="text-black"
-                                        href="contact.php">Contact Us</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black" href="about.php">About Us</a></li>
+                                <li><a style="font-size: 17px; font-weight: 600" class="text-black" href="contact.php">Contact Us</a></li>
 
                                 <li>
                                     <div id="google_translate_element"></div>
@@ -126,21 +116,14 @@
                             </ul>
                         </div>
                         <div class="col-4 text-end">
-                            <a href="#"
-                                class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none dark">
+                            <a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none dark">
                                 <span></span>
                             </a>
 
-                            <ul id="nav-area"
-                                class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                                <li style="padding: 5px;"><a
-                                        style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px"
-                                        class="text-black btn btn-outline-white-reverse me-4"
-                                        href="dash/auth/login.php">Sign
+                            <ul id="nav-area" class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+                                <li style="padding: 5px;"><a style="background: transparent; border: 1px solid #1b21d1; border-radius: 25px" class="text-black btn btn-outline-white-reverse me-4" href="dash/auth/login.php">Sign
                                         in</a></li>
-                                <li style="padding: 5px;"><a
-                                        style="color: #fff; background-color: #1b21d1; border-radius: 25px"
-                                        class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
+                                <li style="padding: 5px;"><a style="color: #fff; background-color: #1b21d1; border-radius: 25px" class="btn btn-outline-white-reverse me-4" href="dash/auth/register.php">Get
                                         Started</a></li>
                             </ul>
                         </div>
@@ -283,7 +266,14 @@
                         Refund for the Subscription.
                         <br>
 
-                        If you wish to terminate your Subscription (as described in Section 14.5.1 of the Terms of Use),
+                        If you wish to terminate your Subscription (as described in Section 14.5.1 of the Terms of Use)For Bot trading, each trade session will carry a trading fee of 25.5% from the total of investors earning. the trading fee will be paid in full according to the original deposit method.
+                        The fee will not be charged until 6 months when trading reset once investor -initiates transactions
+
+                        Notes: Free to deposit. We only support several coins/tokens (Bitcoin, Ethereum, BNB, Tether usdt to deposit and will support more gradually.
+
+                        Asset recovery
+
+                        If you've accidentally sent an unsupported cryptocurrency to your octastrem account, it might still be recoverable. Please note that a network fee will be charged for this recovery attempt. The fee with a minimum charge of $60.,
                         you
                         are entitled to a refund if you as a consumer from have informed us of using your right of
                         withdrawal as described in Section 14.4.1 of the Terms of Use within seven (7) days since the
@@ -320,6 +310,6 @@
 
     <?php
 
-include "includes/footer.php";
+    include "includes/footer.php";
 
-?>
+    ?>
