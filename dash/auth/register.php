@@ -82,7 +82,7 @@ if (isset($_POST["submit"])) {
                 //Server settings
                 $mail->SMTPDebug = 0; //Enable verbose debug output
                 $mail->isSMTP(); //Send using SMTP
-                $mail->Host = 'mail.dreamhost.com'; //Set the SMTP server to send through
+                $mail->Host = 'mail.octastrem.com'; //Set the SMTP server to send through
                 $mail->SMTPAuth = true; //Enable SMTP authentication
                 $mail->Username = 'support@octastrem.com'; //SMTP username
                 $mail->Password = 'oc234TaM12!'; //SMTP password
